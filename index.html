@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/style_menu.css">
+    <title>Perguntas Bíblicas</title>
+
+
+</head>
+
+<body>
+
+
+    <main>
+
+        <aside>
+            <div onclick="menuToggle()" id="menu-opener">
+                <img src="asset/img/menu.png" width="36">
+            </div>
+            <div id="menu-area">
+                <ul>
+                    <li onclick="inicio()">Home</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+        </aside>
+
+
+
+        <div class="container">
+
+            <h3 class="h3">Perguntas bíblicas</h3>
+            <div id="bv">
+                <p>Bem vindo ao jogo de perguntas bíblicas!</p>
+            </div>
+            <div onclick="regras_jogo()" id="bto">
+                <p>Click aqui para começar</p>
+            </div>
+            <div id="regra">
+                <p>Para cada pergunta, você tem 4 opções de resposta. Mas apenas uma está correta!</p></br>
+                <p>Se você errar a resposta 3 vezes, volta para o início do jogo!</p></br>
+                <div class="entrada" onclick="titulo()">
+                    <p>Clique aqui</p>
+                </div>
+            </div>
+            <div class="box">
+                <div id="pg"></div>
+                <div onclick="botao(1)" class="bt_1 bto">
+                    <p></p>
+                </div>
+                <div onclick="botao(2)" class="bt_2 bto">
+                    <p></p>
+                </div>
+                <div onclick="botao(3)" class="bt_3 bto">
+                    <p></p>
+                </div>
+                <div onclick="botao(4)" class="bt_4 bto">
+                    <p></p>
+                </div>
+            </div>
+
+            <div id="int">
+                <div id="parg">
+                    <p>Opa! a reposta escolhida ta errada, tente novamente! &#x1F615;
+                    </p>
+                </div>
+                <div id="par">
+                    <p>Parabéns você acertou! &#x1F600; &#x1F44F;</p>
+                </div>
+                <div id="par_2">
+                    <p>Vamos para próxima pergunta! </p>
+                </div>
+            </div>
+
+            <div onclick="inicio()" class="home">Home</div>
+        </div>
+    </main>
+
+    <footer>
+        <p> &copy; GatewayCloud </p>
+    </footer>
+
+    <script src="listaJson.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
