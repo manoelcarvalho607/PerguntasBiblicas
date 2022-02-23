@@ -6,7 +6,7 @@ let lista = [
     {id:3, pergunta:"Qual o nome da filha de Jacó?",  resp_correta:1, resp_1: "Diná", resp_2:"Débora", resp_3:"Rebeca", resp_4:"Rute"},
     {id:4, pergunta:"Seu voto de nazireu era desde seu nascimento", resp_correta:3, resp_1: "Samuel", resp_2:"Davi", resp_3:"Sansão", resp_4:"Jacó"},
     {id:5, pergunta:"Em que ano Jerusalém foi destruida pelos babilônios", resp_correta:3, resp_1: "580 AC", resp_2:"70 DC", resp_3:"607 AC", resp_4:"537 AC"},
-    {id:6, pergunta:"Com que idade Jesus foi batizado?", resp_correta:4, resp_1: "1 ano", resp_2:"33 anos", resp_3:"30 anos", resp_4:"29 anos"},
+    {id:6, pergunta:"Com que idade Jesus foi batizado?", resp_correta:3, resp_1: "1 ano", resp_2:"33 anos", resp_3:"30 anos", resp_4:"29 anos"},
     {id:7, pergunta:"Qual o nome do filho de Boaz e de Rute, que se tornou avô de Davi?", resp_correta:4, resp_1: "Jessé", resp_2:"Jeoás", resp_3:"Obadias", resp_4:"Obede"},
     {id:8, pergunta:"Com que idade um levita se aposentava de realizar serviços no tabernáculo que exigiam esforço físico?", resp_correta:3, resp_1: "65 anos", resp_2:"70 anos", resp_3:"50 anos", resp_4:"30 anos"},
     {id:9, pergunta:"Qual o nome do Rei que após a sua morte, 4 dos seus generais dividiram seu império? ", resp_correta:2, resp_1: "Seleuco", resp_2:"Alexandre", resp_3:"Júlio César", resp_4:"Ciro"},
