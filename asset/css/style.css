@@ -62,13 +62,14 @@ body {
     padding-top: 20px;
     display:inline-block;
     cursor: pointer;
-
+    
 
 }
 
 .bto:hover{  
     background-color: #ebe5e5b4; 
-    border-radius: 10px 0px 10px 0px; }
+    border-radius: 10px 0px 10px 0px;
+    }
 
 
 
@@ -190,9 +191,9 @@ p {
 footer {
     position: absolute;
     bottom: 0;
-    background-color: #a09696;
+    background-color: #a096964d;
     width: 100%;
-    height: 100px;
+    height: 50px;
     
     
     
@@ -203,14 +204,27 @@ footer {
 footer p {
     text-align: center;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 18px;
     color: #1b1616;
     font-style: italic;
 }
 
 @media (max-width: 780px){
-    #menu-opener  {
+    #menu-opener  { 
             display: none;
     }
 }
+
+@media (max-width: 780px){
+    .bto:hover  {
+        background-color: #cec1c18a;
+        border-radius: 10px 0px 10px 0px;
+    }
+}
     
+@media (max-width: 780px){
+    .bto {
+        background-color: #cec1c18a;
+        border-radius: 10px 0px 10px 0px;
+    }
+}

@@ -103,18 +103,24 @@ function segunda_chance() {
 
 function botao(numeroDoBotao) {
     const respostaAtual = lista[numeroPerguntaAtual].resp_correta;
-   
-    if(respostaAtual === numeroDoBotao){
+    const fim = lista[3]
+  
+     if(respostaAtual === numeroDoBotao){
         respostaCorreta()
-    }else{
+    }
+    
+    else{
         respostaErrada()
     }
+   
 }
 
 
 
 function respostaCorreta() {
     tentativa = 3;
+   
+    
     g('parg').style.display = 'none';
     g('par').style.display = 'block';
      setTimeout(function () {
@@ -145,7 +151,7 @@ function respostaErrada() {
         setTimeout(function (){
                 segunda_chance()
         }, 4000)
-    }else {
+    } else {
         g('parg').innerHTML = `Opa a resposta está errada! você tem mas ${tentativa} tentativa(s) !`
         
         

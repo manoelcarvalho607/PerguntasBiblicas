@@ -19,8 +19,8 @@ let lista = [
     {id:16, pergunta:"Seu nome significa: 'filho de consolo.'", resp_correta:2, resp_1: "Paulo", resp_2:"Barnabé", resp_3:"João", resp_4:"André"},
     {id:17, pergunta:"'Poucas coisas, porém, são necessárias, ou apenas uma', a quem Jesus deu esse conselho?", resp_correta:3, resp_1: "Joana", resp_2:"Maria", resp_3:"Marta", resp_4:"Eunice"},
     {id:18, pergunta:"'Ela era profetisa e mesmo aos 84 anos de idade nunca estava ausente do templo'", resp_correta:3, resp_1: "Lídia", resp_2:"Maria", resp_3:"Ana", resp_4:"Elisabete"},
-    {id:29, pergunta:" 'Ela era conhecida pelas muitas boas obras que fazia e a ajuda que dava aos pobres'", resp_correta:2, resp_1: "Joana", resp_2:"Dorcas", resp_3:"Madalena", resp_4:"Noemi"},
-    
+    {id:19, pergunta:" 'Ela era conhecida pelas muitas boas obras que fazia e a ajuda que dava aos pobres'", resp_correta:2, resp_1: "Joana", resp_2:"Dorcas", resp_3:"Madalena", resp_4:"Noemi"},
+  
     
 ];
 
