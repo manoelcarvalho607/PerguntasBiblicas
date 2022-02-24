@@ -58,6 +58,13 @@ function regras_jogo() {
      g("bto").style.display = 'none';
      g("bv").style.display = 'none';
      g("regra").style.display = 'block';
+      c('.texto_1').style.display = 'none';
+     c('.texto_2').style.display = 'none';
+      c('.texto_3').style.display = 'block';
+     c('.texto_4').style.display = 'block';
+     c(".entrada").style.display = 'block';
+     c('.inicio').style.display = 'none';
+
      
     /* setTimeout(function () {
             titulo()
@@ -99,11 +106,11 @@ function segunda_chance() {
 
 };
 
-
+let respostaAtual;
 
 function botao(numeroDoBotao) {
-    const respostaAtual = lista[numeroPerguntaAtual].resp_correta;
-    const fim = lista[3]
+     respostaAtual = lista[numeroPerguntaAtual].resp_correta;
+    
   
      if(respostaAtual === numeroDoBotao){
         respostaCorreta()
@@ -119,23 +126,32 @@ function botao(numeroDoBotao) {
 
 function respostaCorreta() {
     tentativa = 3;
-   
-    
-    g('parg').style.display = 'none';
-    g('par').style.display = 'block';
-     setTimeout(function () {
-             g('par').style.display = 'none';
-             g('par_2').style.display = 'block';
-     }, 1000)
-     setTimeout(function () {
-             g('par_2').style.display = 'none';
-     }, 2900);   
- 
- 
-     setTimeout(function () {
-         perguntaSeguinte() 
-     }, 3000);
+  
+    if(numeroPerguntaAtual === 19){
+        proximoNivel()
 
+    }else {
+         g('parg').style.display = 'none';
+            g('par').style.display = 'block';
+            setTimeout(function () {
+                    g('par').style.display = 'none';
+                    g('par_2').style.display = 'block';
+            }, 1000)
+            setTimeout(function () {
+                    g('par_2').style.display = 'none';
+            }, 2900);   
+        
+        
+            setTimeout(function () {
+                perguntaSeguinte() 
+            }, 3000);
+
+    }
+    
+       
+    
+            
+            
 }
 
 
@@ -162,6 +178,20 @@ function respostaErrada() {
     
 }
 
+function proximoNivel() {
+     c('.box').style.display = 'none';
+     g("regra").style.display = 'block';
+     c(".entrada").style.display = 'none';
+     c('.texto_1').style.display = 'block';
+     c('.texto_2').style.display = 'block';
+     c('.texto_3').style.display = 'none';
+     c('.texto_4').style.display = 'none';
+     c('.home').style.display = 'none';
+     c('.inicio').style.display = 'block';
+};
+
+
+     
 
 
 

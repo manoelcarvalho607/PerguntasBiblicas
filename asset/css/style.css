@@ -183,6 +183,11 @@ p {
     cursor: pointer;
 }
 
+.entrada:hover{
+    background-color: #9f0000c2;
+    color: #fff3f3;
+}
+
 .regra_1:hover{  
     color: #d7c6c6;
     background-color: #c92727c2; 
@@ -194,11 +199,29 @@ footer {
     background-color: #a096964d;
     width: 100%;
     height: 50px;
-    
-    
-    
-    
-    
+}
+
+.texto_1 {
+    display: none;
+}
+.texto_2 {
+    display: none;
+}
+.inicio {
+    display:none;
+    text-align:center;
+    padding:5px;
+    width: 100px;
+    height:30px;
+    margin-left: 80px;
+    background-color: #d10e0ec2;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.inicio:hover{
+    background-color: #9f0000c2;
+    color: #fff3f3;
 }
 
 footer p {

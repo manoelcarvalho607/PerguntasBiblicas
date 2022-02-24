@@ -4,7 +4,7 @@ let lista = [
     {id:1, pergunta:"Qual o nome da cidade que Abrão viveu?", resp_correta:3, resp_1: "Babilonia", resp_2:"Jerusalém", resp_3:"Ur", resp_4:"Samaria"},
     {id:2, pergunta:"Como se chamava o irmão de Jacó?",  resp_correta:3, resp_1: "José", resp_2:"Isaque", resp_3:"Esaú", resp_4:"levi"},
     {id:3, pergunta:"Qual o nome da filha de Jacó?",  resp_correta:1, resp_1: "Diná", resp_2:"Débora", resp_3:"Rebeca", resp_4:"Rute"},
-    {id:4, pergunta:"Seu voto de nazireu era desde seu nascimento", resp_correta:3, resp_1: "Samuel", resp_2:"Davi", resp_3:"Sansão", resp_4:"Jacó"},
+    {id:4, pergunta:"'Seu voto de nazireu era desde seu nascimento'", resp_correta:3, resp_1: "Samuel", resp_2:"Davi", resp_3:"Sansão", resp_4:"Jacó"},
     {id:5, pergunta:"Em que ano Jerusalém foi destruida pelos babilônios", resp_correta:3, resp_1: "580 AC", resp_2:"70 DC", resp_3:"607 AC", resp_4:"537 AC"},
     {id:6, pergunta:"Com que idade Jesus foi batizado?", resp_correta:3, resp_1: "1 ano", resp_2:"33 anos", resp_3:"30 anos", resp_4:"29 anos"},
     {id:7, pergunta:"Qual o nome do filho de Boaz e de Rute, que se tornou avô de Davi?", resp_correta:4, resp_1: "Jessé", resp_2:"Jeoás", resp_3:"Obadias", resp_4:"Obede"},
@@ -19,7 +19,8 @@ let lista = [
     {id:16, pergunta:"Seu nome significa: 'filho de consolo.'", resp_correta:2, resp_1: "Paulo", resp_2:"Barnabé", resp_3:"João", resp_4:"André"},
     {id:17, pergunta:"'Poucas coisas, porém, são necessárias, ou apenas uma', a quem Jesus deu esse conselho?", resp_correta:3, resp_1: "Joana", resp_2:"Maria", resp_3:"Marta", resp_4:"Eunice"},
     {id:18, pergunta:"'Ela era profetisa e mesmo aos 84 anos de idade nunca estava ausente do templo'", resp_correta:3, resp_1: "Lídia", resp_2:"Maria", resp_3:"Ana", resp_4:"Elisabete"},
-    {id:19, pergunta:" 'Ela era conhecida pelas muitas boas obras que fazia e a ajuda que dava aos pobres'", resp_correta:2, resp_1: "Joana", resp_2:"Dorcas", resp_3:"Madalena", resp_4:"Noemi"},
+    {id:19, pergunta:" 'Ela era conhecida pelas muitas boas obras que fazia e a ajuda que dava aos pobres'", resp_correta:2, resp_1: "Joana", resp_2:"Dorcas", resp_3:"Madalena", resp_4:"Noemi"}
+   
   
     
 ];
