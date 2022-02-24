@@ -237,6 +237,7 @@ footer p {
     text-align: center;
     margin: auto;
     padding-top: 18px;
+    padding-bottom: 5px;
     color: #1b1616;
     font-style: italic;
 }
@@ -259,4 +260,13 @@ footer p {
         background-color: #cec1c18a;
         border-radius: 10px 0px 10px 0px;
     }
+}
+
+@media (max-width: 560px){
+    footer {
+        position: absolute;
+        bottom: 0;
+     
+    }
+
 }
