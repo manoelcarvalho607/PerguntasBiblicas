@@ -102,14 +102,22 @@ p {
 #par {
     display: none;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #par_2 {
     display: none;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
+
+#par_3 {
+    display: none;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
 
 #bv {
     text-align: center;

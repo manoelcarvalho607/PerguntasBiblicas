@@ -126,12 +126,29 @@ function botao(numeroDoBotao) {
 
 function respostaCorreta() {
     tentativa = 3;
-  
-    if(numeroPerguntaAtual === 19){
-        proximoNivel()
 
-    }else {
-         g('parg').style.display = 'none';
+    switch (numeroPerguntaAtual) {
+        case 10:
+            mudancaDeFase_1()
+           break;
+        case 19:
+          proximoNivel()
+            break;
+    
+        default:
+           segueEmFrente()
+           break;
+    }
+  
+  
+         
+
+            
+            
+}
+
+function segueEmFrente(){
+    g('parg').style.display = 'none';
             g('par').style.display = 'block';
             setTimeout(function () {
                     g('par').style.display = 'none';
@@ -146,12 +163,26 @@ function respostaCorreta() {
                 perguntaSeguinte() 
             }, 3000);
 
-    }
-    
-       
-    
-            
-            
+}
+
+
+function mudancaDeFase_1() {
+      g('parg').style.display = 'none';
+            g('par').style.display = 'block';
+            setTimeout(function () {
+                    g('par').style.display = 'none';
+                    g('par_3').style.display = 'block';
+                     
+            }, 1000)
+            setTimeout(function () {
+                    g('par_3').style.display = 'none';
+            }, 3800);   
+        
+        
+            setTimeout(function () {
+                perguntaSeguinte() 
+            }, 3900);
+
 }
 
 
