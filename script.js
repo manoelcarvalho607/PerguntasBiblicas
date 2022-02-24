@@ -140,11 +140,6 @@ function respostaCorreta() {
            break;
     }
   
-  
-         
-
-            
-            
 }
 
 function segueEmFrente(){
