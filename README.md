@@ -6,5 +6,7 @@
 - CSS
 -JavaScript
 
-## Conhecimento adquirido
-- Nesse projeto por explorar os recursos somente da linguagem JavaScript (puro) conseguir ... 
+## Comentários
+- Nesse projeto faço uso somente da linguagem JavaScript para realizar a interação com usuário
+- faço uso de function,json etc.
+- Para acessar o aplicativo em execução, acesse o link:  https://github.com/manoelcarvalho607/PerguntasBiblicas
